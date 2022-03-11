@@ -3,14 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { AsertoProvider } from '@aserto/aserto-react'
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <AsertoProvider>
       <App />
-    </AsertoProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

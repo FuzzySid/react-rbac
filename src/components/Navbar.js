@@ -6,7 +6,7 @@ export default function Navbar(){
             <Link to="/">Home</Link>
             <Link to="/admin">Admin</Link>
             <Link to="/manager">Manager</Link>
-            <Link to="/employee">Employer</Link>
+            <Link to="/employee">Employee</Link>
         </nav>
     )
 }
